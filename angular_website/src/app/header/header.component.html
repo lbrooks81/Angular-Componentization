@@ -1,0 +1,37 @@
+<div class="header_section">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="logo"><a href="index.html"><img src="/images/logo.png"></a></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <a class="nav-item active" href="/">
+          <li class="nav-link">HOME</li>
+        </a>
+        <a class="nav-item" href="/dancing" :to="{
+            name: 'Dancing',
+            params: { rendered: true }
+          }">
+          <li class="nav-link">TRAININGS</li>
+        </a>
+        <a class="nav-item" href="/classes">
+          <li class="nav-link">CLASSES</li>
+        </a>
+        <a class="nav-item" href="/hours">
+          <li class="nav-link">SHOWS</li>
+        </a>
+        <a class="nav-item" href="/about">
+          <li class="nav-link">ABOUT</li>
+        </a>
+        <a class="nav-item" href="/contact">
+          <li class="nav-link">CONTACT</li>
+        </a>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <div class="search_icon"><a href="#"><img src="/images/search-icon.png"></a></div>
+      </form>
+    </div>
+  </nav>
+</div>
