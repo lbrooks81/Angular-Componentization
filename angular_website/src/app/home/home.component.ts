@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {HeaderComponent} from '../header/header.component';
 import {BannerComponent} from '../banner/banner.component';
 import {StudentComponent} from '../students/student.component';
 import {ClassesComponent} from '../classes/classes.component';
@@ -19,7 +18,7 @@ import {ContactComponent} from '../contact/contact.component';
     HoursComponent,
     AboutComponent,
     TestimonialComponent,
-    ContactComponent
+    ContactComponent,
   ],
   templateUrl: './home.component.html',
   standalone: true,
@@ -27,5 +26,4 @@ import {ContactComponent} from '../contact/contact.component';
 })
 export class HomeComponent {
 
-  protected readonly HeaderComponent = HeaderComponent;
 }
